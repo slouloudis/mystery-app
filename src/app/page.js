@@ -19,6 +19,9 @@ export default function Page() {
       name: 'Baked beans', image: 'https://www.recipetineats.com/tachyon/2014/05/Homemade-Heinz-Baked-Beans_0-SQ.jpg?resize=500%2C500', isSoup: true
     }, {
       name: "Smoothie bowl", image: "https://i0.wp.com/daniliciousdishes.com/wp-content/uploads/2018/07/summer-smoothie-bowl-3.jpg?fit=720%2C1080&ssl=1", isSoup: true
+    },
+    {
+      name: "Lava", image: "https://media.istockphoto.com/id/492798423/photo/liquid-molten-steel-industry.jpg?s=612x612&w=0&k=20&c=YitiHgqTY6W1hjPGb9ToAgIf6o_82MviiTgL8dpSVmo=", isSoup: true
     }
   ]
   const [food, setFood] = useState(foods[1])
